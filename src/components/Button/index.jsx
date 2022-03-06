@@ -1,8 +1,10 @@
+import { Container } from "./styles";
+
 const Button = ({ children, onClick, ...rest }) => {
   return (
-    <button onClick={onClick} {...rest}>
+    <Container onClick={onClick} {...rest}>
       {children}
-    </button>
+    </Container>
   );
 };
 

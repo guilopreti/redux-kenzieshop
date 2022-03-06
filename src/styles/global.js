@@ -29,8 +29,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: orange;
-	font-family: 'Inter', sans-serif;
+    background-color: #ae2012;
+    font-family: 'Inter',sans-serif;
+    color: #ee9b00;
 }
 ol, ul {
 	list-style: none;

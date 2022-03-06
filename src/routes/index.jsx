@@ -1,5 +1,6 @@
 import { Route } from "react-router-dom";
 import { Switch } from "react-router-dom/cjs/react-router-dom.min";
+import CartPage from "../pages/CartPage";
 import Home from "../pages/Home";
 
 const Routes = () => {
@@ -8,7 +9,9 @@ const Routes = () => {
       <Route exact path={"/"}>
         <Home />
       </Route>
-      <Route path={"/cart"}>Carrinhuu</Route>
+      <Route path={"/cart"}>
+        <CartPage />
+      </Route>
     </Switch>
   );
 };

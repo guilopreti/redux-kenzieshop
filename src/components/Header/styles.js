@@ -8,8 +8,15 @@ export const Container = styled.header`
   border-bottom: 2px solid;
   align-items: center;
 
+  div {
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
   span {
-    color: black;
     font-weight: 600;
     font-size: 18px;
   }
@@ -19,9 +26,9 @@ export const SpanNumber = styled.span`
   span {
     position: absolute;
     margin-left: 5px;
-    color: black;
+    color: #9b2226;
     margin-top: -35px;
-    background-color: white;
+    background-color: #ee9b00;
     padding: 5px;
     border-radius: 20px;
     font-size: 14px;
